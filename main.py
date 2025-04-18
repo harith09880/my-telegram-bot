@@ -8,8 +8,8 @@ from openai import AsyncOpenAI
 logging.basicConfig(level=logging.INFO)
 
 # التوكنات
-TELEGRAM_TOKEN = "8181709413:AAGX5hqkr25v56qhbDY2aBHGOhGuue6-up0"
-OPENROUTER_API_KEY = "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"
+TELEGRAM_TOKEN = "token"
+OPENROUTER_API_KEY = "token"
 
 # إعداد عميل OpenRouter غير متزامن
 openai_client = AsyncOpenAI(
